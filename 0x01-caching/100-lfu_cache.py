@@ -4,7 +4,7 @@ BaseCaching = __import__('base_caching').BaseCaching
 
 
 class LFUCache(BaseCaching):
-    """"""
+    """class that inherits from BaseCaching and is a caching system"""
     def __init__(self) -> None:
         """init method"""
         self.temp_list= {}
