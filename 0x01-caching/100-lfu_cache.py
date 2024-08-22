@@ -7,7 +7,7 @@ class LFUCache(BaseCaching):
     """class that inherits from BaseCaching and is a caching system"""
     def __init__(self) -> None:
         """init method"""
-        self.temp_list= {}
+        self.temp_list = {}
         super().__init__()
 
     def put(self, key, item):
