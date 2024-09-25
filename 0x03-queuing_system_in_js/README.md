@@ -14,10 +14,10 @@ Kue
 Resources
 Read or watch:
 
-Redis quick start
-Redis client interface
-Redis client for Node JS
-Kue deprecated but still use in the industry
+- [Redis quick start](https://redis.io/docs/latest/integrate/)
+- [Redis client interface](https://redis.io/docs/latest/develop/connect/cli/)
+- [Redis client for Node JS](https://github.com/redis/node-redis)
+- [Kue](https://github.com/Automattic/kue) deprecated but still use in the industry
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
@@ -45,7 +45,7 @@ Don’t forget to run $ npm install when you have the package.json
 Tasks
 0. Install a redis instance
 mandatory
-Download, extract, and compile the latest stable Redis version (higher than 5.0.7 - https://redis.io/downloads/):
+Download, extract, and compile the latest stable Redis version (higher than 5.0.7 - [https://redis.io/downloads/)](https://redis.io/downloads/):
 
 $ wget http://download.redis.io/releases/redis-6.0.10.tar.gz
 $ tar xzf redis-6.0.10.tar.gz
@@ -75,7 +75,7 @@ File: README.md, dump.rdb
  
 1. Node Redis Client
 mandatory
-Install node_redis using npm
+Install [node_redis](https://github.com/redis/node-redis) using npm
 
 Using Babel and ES6, write a script named 0-redis_client.js. It should connect to the Redis server running on your machine:
 
